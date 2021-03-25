@@ -1,0 +1,16 @@
+GET https://completion.amazon.com/search/complete?method=completion&client-id=sxm-ios%40amazon.com%2F22e2cf2a229ac0f63e1de7e81557fffdb96689c9&l=en_US&mkt=1&q=bo&search-alias=aps&sv=ios-iphone-mshop&s=141-7203290-4983364&di=amzn1.account.AFKKPXB64YA375N4BJFPWKSZL7JQ HTTP/1.1
+Host: completion.amazon.com
+Accept: */*
+Cookie: session-id=141-7203290-4983364; session-id-time=2082787201l; ubid-main=134-8711444-1936161; amzn-app-ctxt=1.6%20{"ast":1%2C"os":"iOS"%2C"ov":"12.4"%2C"an":"Amazon"%2C"av":"13.15.0"%2C"dm":{"w":"750"%2C"h":"1334"%2C"ld":"2.000000"}%2C"uiv":5%2C"cp":9390993%2C"xv":"1.12"%2C"di":{"ca":"T-Mobile"%2C"dsn":"BAE8FE04-ED10-469B-886F-841174750372"%2C"mf":"Apple"%2C"ct":"Wifi"%2C"pr":"iPhone"%2C"md":"iPhone"%2C"v":"6S"%2C"dti":"A287KHUN77EJVL"}}; amzn-app-id=Amazon/13.15.0/1-254488.0; amzn-ssnap-ctxt={"version":"6"%2C"isAvailable":"YES"}; apn-privacy=false; i18n-prefs=USD; lc-main=en_US; mobile-device-info=scale:2|w:375|h:667; search-network-type=wifi; session-token="8FQlnPqxDOhZpw8cnvir50YSdn2mmF5Ikl9N34yLd/Sk2NMEtsl5T87KWyLPSI3nMNZWUdJzYUHjjLDP562xhUl5LSRznxSctPWUDx2mkkhP+JeYbhqulaJce26aftRTK+OvkeoqdCV/4eBkaqJTFm4mgdzP77QXngw6jlAZgmgIj9969gwzFUFVENMi1rZojG2N70SV2scMxzTK3LPRQKhHLqnA5shAsEgR/1tk20Z5AUl5qFzcmOxX2tBhNAaTT/pBJ0xaKw2azGKmvWFLgw=="; x-main="wjoozC7tODXh18Bs4r@IAhLb26crir7t"; x-wl-uid=1pA3Qvfv2hkTLTF8b6ha/tVijY7benrPC+Beow+BZub087kZaAfX6G2HBQpT1P15ag1jfcIl5Lc9FYzaF8bvAHl7d2XJGLmYB5OYl4dV78VtzMGPfBdaoO0oxDklx4LyroZ+mfZqVelM=; at-main="Atza|IwEBIDSdXTCgP-StJfueb8IaUCtQg8ySaC4Bbx1O8bOR8HNmPlvfwzcwCDvOxnAB-KjmhZWgqpVU02uS1b6nwL3gaU49dR1JAQ6XXOBJLUz1FMD2zHWGm4m6An_toRzWs0HYrAm3p3cxj2ztUq1b7UvI8iEOFA9bm_jr6MPoFmJyOxlVYC0niC895hc1W8eI1B7Rk4W10sKAY9JsaVjwNTci1JD6g70r2RfNaACwfIV6xW2-Cpyx1xMi6F8W6zdMZcYWm-N051I0-1vjp4mxgaeQID2pnsb9G_cyr115R7_Ww8VvZLiUumEtjGiiLLceOSODdIGzWaO5ks-20fTzjK9SgVYiZPuBy-4V2MH2A4kVrq1ZbKTedcTfT8adG4sRMfXk0rM1tNpJ09S85YqbQzUyFkCQ0j_wz41vetomwTw0NPDU6N5a-qnA45fIkLMB1NVLv_k"; sess-at-main="295yiep9uAXGiE/sDnLrzKOfjU6AUlWgSkaosbsEsmQ="
+User-Agent: mShop:::Amazon_iPhone_13.15.0:::iPhone:::iPhone_OS_12.4
+Accept-Language: en-us
+Accept-Encoding: br, gzip, deflate
+Connection: keep-alive
+
+HTTP/1.1 200 OK
+Content-Type: text/javascript;charset=UTF-8
+Date: Fri, 16 Aug 2019 06:07:21 GMT
+Server: Server
+Content-Length: 337
+
+["bo",["bottle brush","body wash","body pillow","boys backpack","bookshelf","books best sellers","board games","booster seat","bounty select a size paper towels","bona hardwood floor cleaner"],[{"nodes":[{"name":"Baby","alias":"baby-products"},{"name":"Home & Kitchen","alias":"garden"}]},{},{},{},{},{},{},{},{},{}],[],"2DLP5P5QBB384"]

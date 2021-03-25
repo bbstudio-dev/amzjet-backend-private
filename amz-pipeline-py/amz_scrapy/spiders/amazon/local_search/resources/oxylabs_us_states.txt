@@ -1,0 +1,55 @@
+# List of supported cities https://intro.oxylabs.io/hc/en-us/articles/360003444760-Supported-Cities
+# Example: curl -x us-pr.oxylabs.io:10000 -U "customer-rbbstudio-cc-US-state-us_california:8BFKX4nY7p" https://ipinfo.io
+# Example: curl -x us-pr.oxylabs.io:10000 -U "customer-rzontracker-cc-US-state-us_new_hampshire:te85xcVZBx" https://ipinfo.io
+# Example: curl -x us-pr.oxylabs.io:10000 -U "customer-rzontracker-cc-US-state-us_pennsylvania:te85xcVZBx" "https://www.amazon.com/s?k=carabiner+clip&imgRes=500&format=json&imgCrop=1&i=aps&bsr=1&maxResults=48&dataVersion=v0.1&cid=78466f529a8fb3ddf5af7b34217590254d9061224f75961eb3c25d28ee958170" -A "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36" | gunzip - > search.json
+# Example: curl -x us-pr.oxylabs.io:10000 -U "customer-rzontracker-cc-US-state-us_pennsylvania:te85xcVZBx" "https://www.amazon.com/s?k=carabiner+clip&ref=nb_sb_noss" -A "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36" | gunzip - > search.html
+us_alabama
+us_alaska
+us_arizona
+us_arkansas
+us_california
+us_colorado
+us_connecticut
+us_delaware
+us_florida
+us_georgia
+us_hawaii
+us_idaho
+us_illinois
+us_indiana
+us_iowa
+us_kansas
+us_kentucky
+us_louisiana
+us_maine
+us_maryland
+us_massachusetts
+us_michigan
+us_minnesota
+us_mississippi
+us_missouri
+us_montana
+us_nebraska
+us_nevada
+us_new_hampshire
+us_new_jersey
+us_new_mexico
+us_new_york
+us_north_carolina
+us_north_dakota
+us_ohio
+us_oklahoma
+us_oregon
+us_pennsylvania
+us_rhode_island
+us_south_carolina
+us_south_dakota
+us_tennessee
+us_texas
+us_utah
+us_vermont
+us_virginia
+us_washington
+us_west_virginia
+us_wisconsin
+us_wyoming

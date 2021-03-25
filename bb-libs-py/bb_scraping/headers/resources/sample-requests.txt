@@ -1,0 +1,83 @@
+Firefox
+##################
+
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.5
+Connection: keep-alive
+Host: www.amazon.com
+Referer: https://www.google.com/
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:68.0) Gecko/20100101 Firefox/68.0
+
+Chrome
+##################
+
+:authority: www.amazon.com
+:method: GET
+:path: /Vegetarian-5-Ingredient-Gourmet-Recipes-Healthy/dp/076790690X
+:scheme: https
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+accept-encoding: gzip, deflate, br
+accept-language: en-US,en;q=0.9,ru;q=0.8
+referer: https://www.google.com/
+upgrade-insecure-requests: 1
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+
+
+Safari
+##################
+
+:method: GET
+:scheme: https
+:authority: www.amazon.com
+:path: /Loctite-Polyseamseal-Sealant-5-5-Fluid-2241860/dp/B072BF9NR4
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Encoding: br, gzip, deflate
+Host: www.amazon.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1.1 Safari/605.1.15
+Accept-Language: en-us
+Referer: https://www.google.com/
+Connection: keep-alive
+
+
+Chrome + Facebook
+##################
+
+:authority: www.amazon.com
+:method: GET
+:path: /dp/B075RRQGXJ?ref=myi_title_dp&fbclid=IwAR3caQDk7LxCHtzowgl6tr-HtYEY827Qo_tQUa1go2_8MlUD3_6H5MAsxyo
+:scheme: https
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+accept-encoding: gzip, deflate, br
+accept-language: en-US,en;q=0.9,ru;q=0.8
+referer: https://www.facebook.com/
+upgrade-insecure-requests: 1
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+
+
+Chrome + Bing
+##################
+
+:authority: www.amazon.com
+:method: GET
+:path: /Easyoulife-Womens-Credit-Leather-Blocking/dp/B07F12524P
+:scheme: https
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+accept-encoding: gzip, deflate, br
+accept-language: en-US,en;q=0.9,ru;q=0.8
+referer: https://www.bing.com/
+upgrade-insecure-requests: 1
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+
+Edge + Google
+##################
+
+
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate, br   
+Accept-Language: en-US, en; q=0.7, ru; q=0.3   
+Host: www.amazon.com   
+Referer: https://www.google.com/
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36 Edge/18.18362

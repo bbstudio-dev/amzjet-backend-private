@@ -1,0 +1,31 @@
+version: '3'
+
+volumes:
+    amzjet-postgres:
+    amzjet-mongodb:
+
+services:
+    postgres:
+        volumes:
+            - amzjet-postgres:/var/lib/postgresql/data
+
+    mongodb:
+        ports:
+            - 30012:27017    
+        volumes:
+          - amzjet-mongodb:/data/db
+
+    airflow:
+        build:
+            context: ${AMZ_CODE_DIR?}
+            dockerfile: ${AMZ_CODE_DIR?}/amz-deploy/docker/airflow/Dockerfile    
+        volumes:                
+            # Mount local Secrets directory
+            - ${AMZ_SECRETS_DIR?}:/usr/local/airflow/secrets/
+
+            # PIP requirements.txt
+            - ${AMZ_CODE_DIR?}/amz-deploy/docker/airflow/requirements.txt:/requirements.txt
+
+            # Mount Staging / Logs directories
+            - ${AMZ_LOCAL_STAGE_DIR?}/airflow/logs:/usr/local/airflow/logs
+            - ${AMZ_LOCAL_STAGE_DIR?}/airflow/staging:/usr/local/airflow/staging            

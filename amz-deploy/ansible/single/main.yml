@@ -1,0 +1,106 @@
+# Running on a specific host:
+# ansible-playbook single/main.yml \
+#   -i localhost, \
+#   -e ansible_port=2222 \
+#   -e ansible_user=vagrant \
+#   --key-file ".vagrant/machines/default/virtualbox/private_key"
+#
+# TODO:
+# - Avoid requiring root priveledge for running commands.
+# - For simple tasks avoid using 3rd-part packages.
+
+########################################################################################
+# Docker installation
+########################################################################################
+
+- name: Install docker
+  hosts: all
+  become: true
+
+  vars:
+    pip_install_packages:
+      - name: docker
+      - name: docker-compose
+      
+  roles:
+    - geerlingguy.pip
+    - geerlingguy.docker
+
+  tags: 
+    - packages
+
+########################################################################################
+# Authentication & Google Cloud SDK
+########################################################################################
+
+- name: Initialize Google Cloud SDK
+  hosts: all
+  become: true
+
+  vars_files:
+    - vars.yml
+
+  roles:
+    - wtanaka.gcloud_sdk
+     
+  tasks:
+    # This directory is expected by other configuration steps and is mounted to the
+    # Airflow docker container.
+    - name: Copy secrets
+      copy:
+        src: '{{ item.src }}'
+        dest: '{{ item.dest }}'
+      with_items:
+        - src: '{{ secrets_dir }}'
+          dest: '{{ app_dir }}/secrets'
+
+    # Ensure images can be downloaded rom the private Google Cloud container.
+    # Alternative: cat /amzjet/secrets/gcp/airflow.serviceaccount.json | docker login -u _json_key --password-stdin https://us.gcr.io
+    - name: Authenticate GCP client & configure docker
+      command: '{{ item }}'
+      with_items:
+        - gcloud auth activate-service-account --key-file={{ app_dir }}/secrets/gcp/airflow.serviceaccount.json
+        - gcloud auth configure-docker --quiet
+
+  tags: 
+    - packages
+    - auth        
+
+########################################################################################
+# Docker containers
+########################################################################################
+
+- name: Run docker compose
+  hosts: all
+  become: true
+
+  vars_files:
+    - vars.yml  
+     
+  tasks:
+    - name: Copy required files
+      copy:
+        src: '{{ item }}'
+        dest: '{{ app_dir }}/compose/'
+      with_fileglob: "{{ local_base_dir }}/amz-deploy/compose/*.yml"           
+
+    - name: Create a directory for docker volumes
+      file:
+        path: '{{ app_dir }}/volumes/'
+        state: directory
+
+    # https://github.com/ansible/ansible/issues/47978
+    - name: Manually pull docker images
+      command: 'docker-compose -f {{ " -f ".join(compose_files) }} pull'
+      args:
+        chdir: '{{ app_dir }}/compose/'
+      changed_when: False
+
+    - name: Start docker-compose
+      docker_service:
+        project_src: '{{ app_dir }}/compose/'
+        files: '{{ compose_files }}'
+        recreate: always
+
+  tags: 
+    - containers

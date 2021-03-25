@@ -1,0 +1,9 @@
+local_base_dir: '{{ lookup("env", "AMZ_CODE_DIR") }}'
+
+secrets_dir: '{{ lookup("env", "AMZ_SECRETS_DIR") }}'
+
+app_dir: /apps/amzjet
+
+compose_files:
+  - base.yml
+  - prod-env.yml

@@ -1,0 +1,8 @@
+# Roles required to run a playbook.
+#
+# Install with:
+# ansible-galaxy install -r requirements.yml
+
+- src: geerlingguy.docker
+- src: geerlingguy.pip
+- src: wtanaka.gcloud_sdk

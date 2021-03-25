@@ -1,0 +1,73 @@
+Search for 'biotin' - Page 1
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+GET https://www.amazon.com/s?k=biotin&imgRes=500&dataVersion=v0.2&format=json&imgCrop=1&maxResults=16&cid=78466f529a8fb3ddf5af7b34217590254d9061224f75961eb3c25d28ee958170&ref=nb_sb_noss_1&page=1 HTTP/1.1
+Host: www.amazon.com
+x-amzn-snrs-device-info: {"screenWidth":750,"screenHeight":1334}
+x-amzn-request-timestamp: 1565930264895
+Accept: */*
+x-amzn-snrs-client-info: {"v":"1.8.2","bv":"1.0.201561.0","sv":6,"rn":"0.59.8","av":"13.15.0","os":"ios","ov":"12.4","dm":"iPhone8,1","dt":"phone"}
+Cookie: search-network-type=wifi; session-id=141-7203290-4983364; session-id-time=2082787201l; ubid-main=134-8711444-1936161; session-token="LbL/IH6HrEQGqtYPvtvnT6NwYd63MLAAMz9xZN9cqrZNMcbZlspTr6V87GyTfyb3qU205qjhyFV/6gxUExW+qrVD51aNP/v/pfwciO0KoBFyZg2mZ+Iu4qrTJ663fwLe6TXVg5uD7TDEc3a4BlU5uo5b7TnsOv7KfokG4YkKINrrhhLRLuMzQSmOmtBPVP3hmdmBbzNLRxHsr2ngJdZRo7LfQdhnXlT/aPIzofSiaXFP2hf4Wwh2r2h7Rra7HWMpTyaRyUBMi18="; csm-hit=tb:s-THA8RMAJRWBN74BMJ16H|1565930250873&t:1565930251290&adb:adblk_no; amzn-app-ctxt=1.6%20{"ast":3%2C"os":"iOS"%2C"ov":"12.4"%2C"an":"Amazon"%2C"av":"13.15.0"%2C"dm":{"w":"750"%2C"h":"1334"%2C"ld":"2.000000"}%2C"uiv":5%2C"cp":9390993%2C"xv":"1.12"%2C"di":{"ca":"T-Mobile"%2C"dsn":"BAE8FE04-ED10-469B-886F-841174750372"%2C"mf":"Apple"%2C"ct":"Wifi"%2C"pr":"iPhone"%2C"md":"iPhone"%2C"v":"6S"%2C"dti":"A287KHUN77EJVL"}}; amzn-app-id=Amazon/13.15.0/1-254488.0; amzn-ssnap-ctxt={"version":"6"%2C"isAvailable":"YES"}; apn-privacy=false; i18n-prefs=USD; lc-main=en_US; mobile-device-info=scale:2|w:375|h:667; x-main="wjoozC7tODXh18Bs4r@IAhLb26crir7t"; x-wl-uid=1pA3Qvfv2hkTLTF8b6ha/tVijY7benrPC+Beow+BZub087kZaAfX6G2HBQpT1P15ag1jfcIl5Lc9FYzaF8bvAHl7d2XJGLmYB5OYl4dV78VtzMGPfBdaoO0oxDklx4LyroZ+mfZqVelM=; csm-hit=s-4BFM6ZVCCR5D4RXPJQTD|1565930129272; at-main="Atza|IwEBIDSdXTCgP-StJfueb8IaUCtQg8ySaC4Bbx1O8bOR8HNmPlvfwzcwCDvOxnAB-KjmhZWgqpVU02uS1b6nwL3gaU49dR1JAQ6XXOBJLUz1FMD2zHWGm4m6An_toRzWs0HYrAm3p3cxj2ztUq1b7UvI8iEOFA9bm_jr6MPoFmJyOxlVYC0niC895hc1W8eI1B7Rk4W10sKAY9JsaVjwNTci1JD6g70r2RfNaACwfIV6xW2-Cpyx1xMi6F8W6zdMZcYWm-N051I0-1vjp4mxgaeQID2pnsb9G_cyr115R7_Ww8VvZLiUumEtjGiiLLceOSODdIGzWaO5ks-20fTzjK9SgVYiZPuBy-4V2MH2A4kVrq1ZbKTedcTfT8adG4sRMfXk0rM1tNpJ09S85YqbQzUyFkCQ0j_wz41vetomwTw0NPDU6N5a-qnA45fIkLMB1NVLv_k"; sess-at-main="295yiep9uAXGiE/sDnLrzKOfjU6AUlWgSkaosbsEsmQ="
+x-ssnap-prefetch: search_6E564725-F7CE-4C02-B0FD-A1464B6455BF
+Accept-Language: en-US
+User-Agent: mShop:::Amazon_iPhone_13.15.0:::iPhone:::iPhone_OS_12.4
+Accept-Encoding: br, gzip, deflate
+Connection: keep-alive
+
+curl -H "Accept: */*" -A "mShop:::Amazon_iPhone_13.15.0:::iPhone:::iPhone_OS_12.4" "https://www.amazon.com/s?k=coloring%20book&imgRes=500&dataVersion=v0.2&format=json&imgCrop=1&maxResults=16&cid=78466f529a8fb3ddf5af7b34217590254d9061224f75961eb3c25d28ee958170&ref=nb_sb_noss_1&page=1"
+
+Search for 'coloring book' - Page 1
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+--- REQUEST:
+GET https://www.amazon.com/s?k=coloring%20book&imgRes=500&dataVersion=v0.2&format=json&imgCrop=1&maxResults=16&cid=78466f529a8fb3ddf5af7b34217590254d9061224f75961eb3c25d28ee958170&ref=nb_sb_noss_1&page=1 HTTP/1.1
+Host: www.amazon.com
+x-amzn-snrs-device-info: {"screenWidth":750,"screenHeight":1334}
+x-amzn-request-timestamp: 1565934636328
+Accept: */*
+x-amzn-snrs-client-info: {"v":"1.8.2","bv":"1.0.201561.0","sv":6,"rn":"0.59.8","av":"13.15.0","os":"ios","ov":"12.4","dm":"iPhone8,1","dt":"phone"}
+Cookie: search-network-type=wifi; session-id=141-7203290-4983364; session-id-time=2082787201l; session-token="8FQlnPqxDOhZpw8cnvir50YSdn2mmF5Ikl9N34yLd/Sk2NMEtsl5T87KWyLPSI3nMNZWUdJzYUHjjLDP562xhUl5LSRznxSctPWUDx2mkkhP+JeYbhqulaJce26aftRTK+OvkeoqdCV/4eBkaqJTFm4mgdzP77QXngw6jlAZgmgIj9969gwzFUFVENMi1rZojG2N70SV2scMxzTK3LPRQKhHLqnA5shAsEgR/1tk20Z5AUl5qFzcmOxX2tBhNAaTT/pBJ0xaKw2azGKmvWFLgw=="; ubid-main=134-8711444-1936161; csm-hit=tb:s-THA8RMAJRWBN74BMJ16H|1565930250873&t:1565930251290&adb:adblk_no; amzn-app-ctxt=1.6%20{"ast":3%2C"os":"iOS"%2C"ov":"12.4"%2C"an":"Amazon"%2C"av":"13.15.0"%2C"dm":{"w":"750"%2C"h":"1334"%2C"ld":"2.000000"}%2C"uiv":5%2C"cp":9390993%2C"xv":"1.12"%2C"di":{"ca":"T-Mobile"%2C"dsn":"BAE8FE04-ED10-469B-886F-841174750372"%2C"mf":"Apple"%2C"ct":"Wifi"%2C"pr":"iPhone"%2C"md":"iPhone"%2C"v":"6S"%2C"dti":"A287KHUN77EJVL"}}; amzn-app-id=Amazon/13.15.0/1-254488.0; amzn-ssnap-ctxt={"version":"6"%2C"isAvailable":"YES"}; apn-privacy=false; i18n-prefs=USD; lc-main=en_US; mobile-device-info=scale:2|w:375|h:667; x-main="wjoozC7tODXh18Bs4r@IAhLb26crir7t"; x-wl-uid=1pA3Qvfv2hkTLTF8b6ha/tVijY7benrPC+Beow+BZub087kZaAfX6G2HBQpT1P15ag1jfcIl5Lc9FYzaF8bvAHl7d2XJGLmYB5OYl4dV78VtzMGPfBdaoO0oxDklx4LyroZ+mfZqVelM=; csm-hit=s-4BFM6ZVCCR5D4RXPJQTD|1565930129272; at-main="Atza|IwEBIDSdXTCgP-StJfueb8IaUCtQg8ySaC4Bbx1O8bOR8HNmPlvfwzcwCDvOxnAB-KjmhZWgqpVU02uS1b6nwL3gaU49dR1JAQ6XXOBJLUz1FMD2zHWGm4m6An_toRzWs0HYrAm3p3cxj2ztUq1b7UvI8iEOFA9bm_jr6MPoFmJyOxlVYC0niC895hc1W8eI1B7Rk4W10sKAY9JsaVjwNTci1JD6g70r2RfNaACwfIV6xW2-Cpyx1xMi6F8W6zdMZcYWm-N051I0-1vjp4mxgaeQID2pnsb9G_cyr115R7_Ww8VvZLiUumEtjGiiLLceOSODdIGzWaO5ks-20fTzjK9SgVYiZPuBy-4V2MH2A4kVrq1ZbKTedcTfT8adG4sRMfXk0rM1tNpJ09S85YqbQzUyFkCQ0j_wz41vetomwTw0NPDU6N5a-qnA45fIkLMB1NVLv_k"; sess-at-main="295yiep9uAXGiE/sDnLrzKOfjU6AUlWgSkaosbsEsmQ="
+x-ssnap-prefetch: search_2E1EBDD6-1AFB-4DE4-B41E-63E7C0CFBC27
+Accept-Language: en-US
+User-Agent: mShop:::Amazon_iPhone_13.15.0:::iPhone:::iPhone_OS_12.4
+Accept-Encoding: br, gzip, deflate
+Connection: keep-alive
+
+--- RESPONSE HEADERS:
+HTTP/1.1 200 OK
+Content-Type: application/json;charset=UTF-8
+Connection: keep-alive
+Server: Server
+Date: Fri, 16 Aug 2019 05:50:36 GMT
+Strict-Transport-Security: max-age=47474747; includeSubDomains; preload
+Vary: Accept-Encoding,X-Amzn-CDN-Cache,X-Amzn-AX-Treatment,User-Agent
+Set-Cookie: session-id=141-7203290-4983364; Domain=.amazon.com; Expires=Tue, 01-Jan-2036 08:00:01 GMT; Path=/
+Set-Cookie: session-id-time=2082787201l; Domain=.amazon.com; Expires=Tue, 01-Jan-2036 08:00:01 GMT; Path=/
+Set-Cookie: session-token="8FQlnPqxDOhZpw8cnvir50YSdn2mmF5Ikl9N34yLd/Sk2NMEtsl5T87KWyLPSI3nMNZWUdJzYUHjjLDP562xhUl5LSRznxSctPWUDx2mkkhP+JeYbhqulaJce26aftRTK+OvkeoqdCV/4eBkaqJTFm4mgdzP77QXngw6jlAZgmgIj9969gwzFUFVENMi1rZojG2N70SV2scMxzTK3LPRQKhHLqnA5shAsEgR/1tk20Z5AUl5qFzcmOxX2tBhNAaTT/pBJ0xaKw2azGKmvWFLgw=="; Version=1; Domain=.amazon.com; Max-Age=516852565; Expires=Tue, 01-Jan-2036 08:00:01 GMT; Path=/
+x-amz-rid: ADVBGWHJP87Q957H4VG6
+X-Frame-Options: SAMEORIGIN
+X-Cache: Miss from cloudfront
+Via: 1.1 4b41f5d4002cf5daabe6e170bd619abc.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: SEA19
+X-Amz-Cf-Id: 3VVpkIo-HdPllPW_B4r3j1GYNUutR3q_hFG1TFJvp3z1EUC_iAudnw==
+Content-Length: 337261
+
+--- RESPONSE BODY (as in Fiddler):
+Does not seem to be a JSON, but opening the same URL in browser will return JSON
+000B{"z":151.0}[{"@typeId":"snr:searchContext","alias":"aps","keywords":"coloring book","qid":"1565934636","rid":"ADVBGWHJP87Q957H4VG6", ...
+
+
+Search for 'coloring book' - Page 2 - After scrolling to see more results
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+--- REQUEST
+GET https://www.amazon.com/s?k=coloring%20book&lo=list&page=2&cid=78466f529a8fb3ddf5af7b34217590254d9061224f75961eb3c25d28ee958170&dataVersion=v0.2&format=json&imgCrop=1&imgRes=500&maxResults=16&qid=1565934636&ref=sr_pg_1 HTTP/1.1
+Host: www.amazon.com
+x-amzn-snrs-device-info: {"screenWidth":750,"screenHeight":1334}
+x-amzn-request-timestamp: 1565934725316
+Accept: */*
+x-amzn-snrs-client-info: {"v":"1.8.2","bv":"1.0.201561.0","sv":6,"rn":"0.59.8","av":"13.15.0","os":"ios","ov":"12.4","dm":"iPhone8,1","dt":"phone"}
+Cookie: session-id=141-7203290-4983364; session-id-time=2082787201l; session-token="8FQlnPqxDOhZpw8cnvir50YSdn2mmF5Ikl9N34yLd/Sk2NMEtsl5T87KWyLPSI3nMNZWUdJzYUHjjLDP562xhUl5LSRznxSctPWUDx2mkkhP+JeYbhqulaJce26aftRTK+OvkeoqdCV/4eBkaqJTFm4mgdzP77QXngw6jlAZgmgIj9969gwzFUFVENMi1rZojG2N70SV2scMxzTK3LPRQKhHLqnA5shAsEgR/1tk20Z5AUl5qFzcmOxX2tBhNAaTT/pBJ0xaKw2azGKmvWFLgw=="; ubid-main=134-8711444-1936161; search-network-type=wifi; csm-hit=tb:s-THA8RMAJRWBN74BMJ16H|1565930250873&t:1565930251290&adb:adblk_no; amzn-app-ctxt=1.6%20{"ast":3%2C"os":"iOS"%2C"ov":"12.4"%2C"an":"Amazon"%2C"av":"13.15.0"%2C"dm":{"w":"750"%2C"h":"1334"%2C"ld":"2.000000"}%2C"uiv":5%2C"cp":9390993%2C"xv":"1.12"%2C"di":{"ca":"T-Mobile"%2C"dsn":"BAE8FE04-ED10-469B-886F-841174750372"%2C"mf":"Apple"%2C"ct":"Wifi"%2C"pr":"iPhone"%2C"md":"iPhone"%2C"v":"6S"%2C"dti":"A287KHUN77EJVL"}}; amzn-app-id=Amazon/13.15.0/1-254488.0; amzn-ssnap-ctxt={"version":"6"%2C"isAvailable":"YES"}; apn-privacy=false; i18n-prefs=USD; lc-main=en_US; mobile-device-info=scale:2|w:375|h:667; x-main="wjoozC7tODXh18Bs4r@IAhLb26crir7t"; x-wl-uid=1pA3Qvfv2hkTLTF8b6ha/tVijY7benrPC+Beow+BZub087kZaAfX6G2HBQpT1P15ag1jfcIl5Lc9FYzaF8bvAHl7d2XJGLmYB5OYl4dV78VtzMGPfBdaoO0oxDklx4LyroZ+mfZqVelM=; csm-hit=s-4BFM6ZVCCR5D4RXPJQTD|1565930129272; at-main="Atza|IwEBIDSdXTCgP-StJfueb8IaUCtQg8ySaC4Bbx1O8bOR8HNmPlvfwzcwCDvOxnAB-KjmhZWgqpVU02uS1b6nwL3gaU49dR1JAQ6XXOBJLUz1FMD2zHWGm4m6An_toRzWs0HYrAm3p3cxj2ztUq1b7UvI8iEOFA9bm_jr6MPoFmJyOxlVYC0niC895hc1W8eI1B7Rk4W10sKAY9JsaVjwNTci1JD6g70r2RfNaACwfIV6xW2-Cpyx1xMi6F8W6zdMZcYWm-N051I0-1vjp4mxgaeQID2pnsb9G_cyr115R7_Ww8VvZLiUumEtjGiiLLceOSODdIGzWaO5ks-20fTzjK9SgVYiZPuBy-4V2MH2A4kVrq1ZbKTedcTfT8adG4sRMfXk0rM1tNpJ09S85YqbQzUyFkCQ0j_wz41vetomwTw0NPDU6N5a-qnA45fIkLMB1NVLv_k"; sess-at-main="295yiep9uAXGiE/sDnLrzKOfjU6AUlWgSkaosbsEsmQ="
+x-ssnap-prefetch: search_2E1EBDD6-1AFB-4DE4-B41E-63E7C0CFBC27
+Accept-Language: en-US
+User-Agent: mShop:::Amazon_iPhone_13.15.0:::iPhone:::iPhone_OS_12.4
+Accept-Encoding: br, gzip, deflate
+Connection: keep-alive

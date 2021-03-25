@@ -1,0 +1,10 @@
+PRODUCT DETAILS PAGES
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Scraper for product details web pages hits 503 every N requests. This seems to
+get worsen as we continue sending requests from concurrent workers. Amazon seems
+to link our requests together and start banning proxies. The ban seems to be get
+lifted at least the next day.
+
+It looks like scraping methods using JSON APIs (internal) are more permissive, as
+well as access to the web pages for bestsellers.

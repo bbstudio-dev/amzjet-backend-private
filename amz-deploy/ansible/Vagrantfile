@@ -1,0 +1,18 @@
+# Vagrant file for testing ansible roles.
+#
+# Command to rebuild from scratch:
+# vagrant destroy -f && vagrant up && ssh-keygen -R "[localhost]:2222"
+#
+# Ansible command to run a playbook on VM:
+# ansible-playbook -i localhost, \
+#   playbook.yml \
+#   -e ansible_port=2222 \
+#   -e ansible_user=vagrant \
+#   --key-file ".vagrant/machines/default/virtualbox/private_key"
+
+Vagrant.configure(2) do |config|
+    config.vm.box = "ubuntu/bionic64"
+    config.vm.provision "shell", inline: "apt-get update && apt-get install -y python"
+
+    config.vm.network "forwarded_port", guest: 8080, host: 3000
+end

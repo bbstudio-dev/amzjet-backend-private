@@ -1,0 +1,8 @@
+profiles:
+  - tag: 'amazon.com'
+    proxies: 'ALL'
+
+  - tag: [ 'amazon.com:user', 'amazon.com:user:buzgene@gmail.com' ]
+    remove_from: [ 'amazon.com' ]
+    proxies:
+      - 'http://23.95.173.169:13228'

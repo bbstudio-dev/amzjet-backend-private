@@ -1,0 +1,3 @@
+How to Scrape Amazon.com: 19 Lessons I Learned While Crawling 1MM+ Product Listings
+August 3, 2016
+https://blog.hartleybrody.com/scrape-amazon/

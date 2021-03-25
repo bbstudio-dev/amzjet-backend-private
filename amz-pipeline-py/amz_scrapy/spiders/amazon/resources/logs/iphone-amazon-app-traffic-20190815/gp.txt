@@ -1,0 +1,29 @@
+GET https://www.amazon.com/gp/product/B01MQ3YP7Y/ref=sr_1_2?cid=78466f529a8fb3ddf5af7b34217590254d9061224f75961eb3c25d28ee958170&crid=1SD46K4NMYG5C&dataVersion=v0.2&format=json&imgCrop=1&imgRes=500&keywords=toys+for+1+year+old&maxResults=16&qid=1565936728&s=gateway&sprefix=toy%2Caps&sr=8-2 HTTP/1.1
+Host: www.amazon.com
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+X-MASH-CSM-TC: 1565936743112
+X-SMASHIntercepted: YES
+Cookie: amzn-app-ctxt=1.6%20{"ast":3%2C"os":"iOS"%2C"ov":"12.4"%2C"an":"Amazon"%2C"av":"13.15.0"%2C"dm":{"w":"750"%2C"h":"1334"%2C"ld":"2.000000"}%2C"uiv":5%2C"cp":9390993%2C"xv":"1.12"%2C"di":{"ca":"T-Mobile"%2C"dsn":"BAE8FE04-ED10-469B-886F-841174750372"%2C"mf":"Apple"%2C"ct":"Wifi"%2C"pr":"iPhone"%2C"md":"iPhone"%2C"v":"6S"%2C"dti":"A287KHUN77EJVL"}}; amzn-app-id=Amazon/13.15.0/1-254488.0; mobile-device-info=scale:2|w:375|h:667; session-id=141-7203290-4983364; session-id-time=2082787201l; ubid-main=134-8711444-1936161; session-token="8FQlnPqxDOhZpw8cnvir50YSdn2mmF5Ikl9N34yLd/Sk2NMEtsl5T87KWyLPSI3nMNZWUdJzYUHjjLDP562xhUl5LSRznxSctPWUDx2mkkhP+JeYbhqulaJce26aftRTK+OvkeoqdCV/4eBkaqJTFm4mgdzP77QXngw6jlAZgmgIj9969gwzFUFVENMi1rZojG2N70SV2scMxzTK3LPRQKhHLqnA5shAsEgR/1tk20Z5AUl5qFzcmOxX2tBhNAaTT/pBJ0xaKw2azGKmvWFLgw=="; search-network-type=wifi; csm-hit=tb:s-A98Q2EK2ZA5KX68G363K|1565936721658&t:1565936722221&adb:adblk_no; amzn-ssnap-ctxt={"version":"6"%2C"isAvailable":"YES"}; apn-privacy=false; i18n-prefs=USD; lc-main=en_US; x-main="wjoozC7tODXh18Bs4r@IAhLb26crir7t"; x-wl-uid=1pA3Qvfv2hkTLTF8b6ha/tVijY7benrPC+Beow+BZub087kZaAfX6G2HBQpT1P15ag1jfcIl5Lc9FYzaF8bvAHl7d2XJGLmYB5OYl4dV78VtzMGPfBdaoO0oxDklx4LyroZ+mfZqVelM=; csm-hit=tb:s-83P2QMFNB3CMJR834CFK|1565935635532&t:1565935635591&adb:adblk_no; at-main="Atza|IwEBIDSdXTCgP-StJfueb8IaUCtQg8ySaC4Bbx1O8bOR8HNmPlvfwzcwCDvOxnAB-KjmhZWgqpVU02uS1b6nwL3gaU49dR1JAQ6XXOBJLUz1FMD2zHWGm4m6An_toRzWs0HYrAm3p3cxj2ztUq1b7UvI8iEOFA9bm_jr6MPoFmJyOxlVYC0niC895hc1W8eI1B7Rk4W10sKAY9JsaVjwNTci1JD6g70r2RfNaACwfIV6xW2-Cpyx1xMi6F8W6zdMZcYWm-N051I0-1vjp4mxgaeQID2pnsb9G_cyr115R7_Ww8VvZLiUumEtjGiiLLceOSODdIGzWaO5ks-20fTzjK9SgVYiZPuBy-4V2MH2A4kVrq1ZbKTedcTfT8adG4sRMfXk0rM1tNpJ09S85YqbQzUyFkCQ0j_wz41vetomwTw0NPDU6N5a-qnA45fIkLMB1NVLv_k"; sess-at-main="295yiep9uAXGiE/sDnLrzKOfjU6AUlWgSkaosbsEsmQ="
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 12_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
+Accept-Language: en-us
+Accept-Encoding: br, gzip, deflate
+Connection: keep-alive
+
+HTTP/1.1 200 OK
+Content-Type: text/html;charset=UTF-8
+Connection: keep-alive
+Server: Server
+Date: Fri, 16 Aug 2019 06:25:43 GMT
+Strict-Transport-Security: max-age=47474747; includeSubDomains; preload
+Vary: Accept-Encoding,User-Agent,X-Amzn-CDN-Cache,X-Amzn-AX-Treatment
+P3P: policyref="https://www.amazon.com/w3c/p3p.xml",CP="CAO DSP LAW CUR ADM IVAo IVDo CONo OTPo OUR DELi PUBi OTRi BUS PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA HEA PRE LOC GOV OTC "
+Cache-Control: no-cache, no-transform
+X-XSS-Protection: 1;
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+x-amz-rid: G0Z3YXNSJ5NYQ9GNNCVQ
+X-Cache: Miss from cloudfront
+Via: 1.1 08df71188a92655a7dcd1bb872797741.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: SEA19
+X-Amz-Cf-Id: XjyVK0WWCM-6pQWKbF09kAyG8cziPL6881IThJ0petx5PC2FTklZAQ==
+Content-Length: 530817
