@@ -1,0 +1,52 @@
+# Internal directories
+#
+
+# Directories starting with .
+#
+.*
+!/.gitignore
+!/.dockerignore
+
+# VirtualEnv
+**/.venv*
+
+# PyTest
+.pytest_cache
+
+# VSCode
+.vscode/*.*
+!.vscode/settings.json
+!.vscode/launch.json
+
+# Deployment tools
+#
+
+**/.vagrant
+**/.terraform
+
+# Temporary files
+#
+
+**/*.pyc
+**/*.log
+
+# Jupyter
+# **/*.ipynb
+
+# Data-processing directories to be ignored
+#
+
+amz-data
+tmp/
+__staging__
+
+# Installed packages
+#
+
+**/node_modules
+
+# Misc
+#
+
+# Auto-generated .env file for IDE
+.env
